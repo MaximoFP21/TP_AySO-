@@ -1,32 +1,13 @@
-pwd
-man ls 
-pwd
-pdswwrr
-pwd
-vagant halt
-vagran status
-pwd
-vagrant halp
-vagrant status
-vagrant halt
-halt
-exit
-man cat
 ssh-keygen
-cat /$HOME/.ssh/*.pub
 cd
 ls -l
 cd repogit
 git clone git@github.com:MaximoFP21/TP_AySO-.git
-cd T
 cd TP_AySO-/
 pwd
 ls -l
-cat /etc /mtab
 cat /etc/mtab
-man crep 
 man grep 
-q
 grep SYSFS /etc/mtab
 grep home_url /etc/os-release 
 grep -i Sysfs /etc/mtab 
@@ -39,9 +20,6 @@ git config --global user.name "MaximoFP21"
 git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
 git status
 git push
-grep "$(whoami)" /etc/passwd | awk -f '{print "Comentario=" $5\n"Home"$6}' >> datos_usuario.txt 
-grep "$(whoami):" /etc/passwd | awk -f '{print "Comentario="$5"\nHome"$6}' >> datos_usuario.txt 
-grep "$(whoami):" /etc/passwd | awk -f: '{print "Comentario=" $5 "\nHome"$6}' >> datos_usuario.txt 
 grep "$(whoami):" /etc/passwd | awk -F: '{print "Comentario="$5"\nHome"$6}' >> datos_usuario.txt 
 git add datos_usurio.txt
 git add datos_usuario.txt
@@ -55,7 +33,6 @@ EOF
 git add README.md datos_usuario.txt
 git commit -m "ADD: Añadiedo Readme y Datos de usuario"
 git push 
-mkdir -p $HOME
 mkdir -p $HOME/TP1/{arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5},so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6}}
 cd ..
 tree
